@@ -47,7 +47,7 @@ def parse_html(link,path,worker):
 
 if __name__=='__main__':
     #the html file link to download the all links inside it 
-    link=r"https://www.w3schools.com/python/"
+    link=r"https://docs.python.org/3/index.html"
     #path to store the links inside the page
     path=r'C:\Users\Fahar Jamadar\handson\thread\downloads'
     with ThreadPoolExecutor(max_workers=8) as worker:
