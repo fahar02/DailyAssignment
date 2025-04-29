@@ -15,6 +15,7 @@ http://notepadfromdas.pythonanywhere.com/w/mumbai
 
 from flask import Flask,request,Response,jsonify
 import random as r
+import xml.etree.ElementTree as ET
 app=Flask(__name__)
 
 @app.route("/w/<string:city>",methods=['GET'])
